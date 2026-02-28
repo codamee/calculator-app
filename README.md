@@ -1,17 +1,24 @@
-# Calculator-Mini
+# Calculator App
 
-This is a basic calculator built with HTML, CSS, and JavaScript. The calculator features a light-themed interface.
+A fully functional calculator built with vanilla JavaScript. This project represents the culmination of [The Odin Project](https://www.theodinproject.com) Foundations.
 
-[Live Demo](https://codamee.github.io/Calculator-Mini/)
+<p>
+  <img src="./screenshot.png" alt="Calculator App Preview" width="500">
+</p>
 
-## Core Features
+## 🚀 Live Demo
+[Try the Calculator Here](https://codamee.github.io/calculator-app/)
 
-- **Arithmetic Operations**: The calculator can perform standard addition, subtraction, multiplication, and division.
+## 🎨 Key Features
+* **Sequential Operations:** Ability to string together multiple operations (e.g., `12 + 7 - 1`) with immediate evaluation of the previous pair.
+* **Precision Control:** Implemented rounding logic to prevent long decimals from overflowing the display.
+* **Display Logic:** Dynamic screen updates that manage string length and clear/delete functionality.
 
-- **Percentage Functionality**: Users can also calculate percentages.
+## 🛠️ Technical Skills
+* **Avoidance of eval():** Built a custom math engine from scratch to safely evaluate expressions without using insecure JavaScript methods.
+* **State Management:** Handled multiple variables to track the "First Number," "Operator," and "Second Number" throughout the calculation lifecycle.
+* **DOM Manipulation:** Efficiently updated display elements using JavaScript string manipulation and real-time variable tracking.
+* **CSS Layout:** Used Flexbox/Grid to create a responsive and clean user interface.
 
-- **Clear Function**: The **"C"** button is included to clear the entire display and reset the calculation.
-
-- **Backspace Functionality**: A backspace button allows for the correction of input errors.
-
-For any suggestions or feedback, please feel free to reach out.
+---
+*Built as part of The Odin Project Foundations.*
